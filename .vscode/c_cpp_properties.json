@@ -1,11 +1,12 @@
 {
     "configurations": [
-      {
-        "name": "ESP-IDF",
-        "cStandard": "c11",
-        "cppStandard": "c++17",
-        "compileCommands": "${workspaceFolder}/build/compile_commands.json"
-      }
+        {
+            "name": "ESP-IDF",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json",
+            "configurationProvider": "go2sh.cmake-integration"
+        }
     ],
     "version": 4
-  }
+}
